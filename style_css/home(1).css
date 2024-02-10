@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 800px;
+    background-color:black ;
+}
+.top-header{
+    width: 100%;
+    height: 150px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.buttom-header{
+    width: 100%;
+    height: 650px;
+    /* background-color: blueviolet; */
+    display: flex;
+    /* position: absolute; */
+}
+.menu{
+    width: 40%;
+    height: 100%;
+    /* background-color: brown; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul{
+    list-style: none;
+}
+.menu li,a{
+    cursor: pointer;
+    display: inline-block;
+    padding-left: 30px;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.menu li,a:hover{
+    color: red;
+    transition: 0.5s;
+}
+.menu-mid{
+    width: 20%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .menu-mid h1{ */
+    /* color: red; */
+    /* cursor: pointer; */
+    /* text-decoration: none; */
+/* } */
+.menu-mid a{
+    color: red;
+    cursor: pointer;
+    text-decoration: none;
+}
+.menu-login{
+    width: 40%;
+    height: 100%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-login i{
+    font-size: 30px;
+    padding: 15px;
+    color: red;
+    cursor: pointer;
+}
+.menu-login button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 100px 0 100px 100px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.menu-login button:hover{
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center ;
+}
+.box-left{
+    width: 60%;
+    height: 50%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    color: white;
+    margin-top: 60px;
+}
+.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: center;
+}
+.box-right{
+    width: 50%;
+    height: 30%;
+    /* background-color: brown; */
+    margin-top: 10%;
+}
+.text{
+    width: 100%;
+    height: 50%;
+    /* background-color: yellow; */
+    color: white;
+    font-size: 25px;
+}
+.box-get{
+    width: 100%;
+    height: 50%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+}
+.box-get button{
+    background-color: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    border-radius: 100px 0 100px 100px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box-get button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.end-header{
+    width: 100%;
+    height: 600px;
+    /* background-color: rgb(185, 36, 36); */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: -20%;
+}
+.img {
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    margin: 30px;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* border-radius: 100px 0 100px 0; */
+}
+.img-kimse{
+    border-radius: 200px 0 200px 200px;   
+}
+.img-bosba{
+    border-radius: 200px 200px 200px 0; 
+}
+.img-pich{
+    border-radius: 0 200px 200px 200px; 
+}

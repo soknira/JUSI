@@ -1,0 +1,459 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.main-menu {
+    width: 70%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    width: 45%;
+    height: 100%;
+    /* background-color:bisque; */
+    display: flex;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding: 6% 3%;
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: 700;
+}
+
+.menu a:hover {
+    color: #FF2359;
+}
+
+.e-learn {
+    width: 35%;
+    height: 100%;
+    /* background-color:rgb(245, 153, 39); */
+    display: flex;
+}
+
+.e-learn a {
+    text-decoration: none;
+    color: #FF2359;
+    font-size: 34px;
+    font-weight: 600;
+    margin: 7% 5%;
+}
+
+.sigh-up {
+    width: 20%;
+    height: 100%;
+    /* background-color:bisque; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.sign-up i {
+    font-size: 30px;
+    padding: 15px;
+    color: #FF2359;
+    cursor: pointer;
+}
+
+.sign-up select {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 100px 0 100px 100px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+    margin-left: 10px;
+    appearance: none;
+}
+
+.sign-up select:hover {
+    background-color: #FF2359;
+    transition: 0.5s;
+}
+
+option {
+    background-color: #FCF3EC;
+}
+
+.sigh-up button {
+    border-radius: 100px 0 100px 100px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    transition: 0.5s;
+    padding: 7% 19%;
+}
+
+.sigh-up button:hover {
+    color: white;
+    background-color: #FF2359;
+}
+
+.full-body-4 {
+    width: 100%;
+    height: 1500px;
+    /* background-color: #FF2359; */
+}
+
+.box-top-body-4 {
+    width: 100%;
+    height: 60%;
+    /* background: #666463; */
+    display: flex;
+    justify-content: center;
+}
+
+.sub-box-body-4 {
+    width: 80%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.box-body-left-4 {
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-box-body-left-4{
+    width: 90%;
+    height: 90%;
+    /* background: lawngreen; */
+}
+.box-body-4-title{
+    width: 100%;
+    height: 30%;
+    /* background-color: #3CADA9; */
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.box-body-4-title h1{
+    padding-right: 30%;
+}
+.box-body-4-paragraph{
+    width: 100%;
+    height: 20%;
+    /* background-color: chocolate; */
+    font-size: 18px;
+    color: #666463;
+    display: flex;
+    align-items: center;
+}
+.box-body-4-paragraph p{
+    padding-right: 30%;
+}
+.box-body-4-button{
+    width: 100%;
+    height: 20%;
+    /* background-color:red ; */
+    display: flex;
+    align-items: center;
+}
+.box-body-4-button button{
+    background-color: #FF2359;
+    color: white;
+    font-size: 18px;
+    padding: 15px 35px;
+    border-radius: 50px 0 50px 50px;
+    border: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box-body-4-button button:hover{
+    background-color: black;
+    color: #FF2359;
+    transition: 0.5s;
+}
+.box-body-4-value{
+    width: 100%;
+    height: 30%;
+    /* background-color: violet; */
+    display: flex;
+    justify-content: space-between;
+}
+.sub-box-body-value-4{
+    width: 48%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+.value-title{
+    width: 100%;
+    height: 50%;
+    /* background-color: burlywood; */
+    font-size:15px ;
+    display: flex;
+    align-items: center;
+}
+.value-title h1{
+    padding-left: 20px;
+}
+.value-p{
+    width: 100%;
+    height: 50%;
+    /* background-color: #FF2359; */
+    font-size: 20px;
+    color: #666463;
+}
+.value-p p{
+    padding-left: 20px;
+}
+.box-body-right-4 {
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.border {
+    width: 70%;
+    background-color: #3CADA9;
+    height: 70%;
+    border-radius: 200px 0 0 0;
+    position: absolute;
+}
+
+.box-body-right-4 img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+    top: 22.7%;
+    right: 20%;
+
+}
+.box-buttom-body-4{
+    width: 100%;
+    height: 40%;
+    /* background-color: #3CADA9; */
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
+.sub-box-buttom-body-4{
+    width: 80%;
+    height: 80%;
+    background-color: black;
+    border-radius: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.little-box{
+    width: 60%;
+    height: 80%;
+    /* background-color: yellow; */
+}
+.little-box-title{
+    width: 100%;
+    height: 40%;
+    /* background-color: chartreuse; */
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.little-box-title h1{
+    padding: 0 40px 0px 40px;
+}
+.little-box-p{
+    width: 100%;
+    height: 25%;
+    /* background-color: violet; */
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.little-box-input{
+    width: 100%;
+    height: 35%;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-little-box-input{
+    width: 80%;
+    height: 60%;
+    background-color: white;
+    border-radius: 30px 0 30px 0;
+    border: none;
+}
+.sub-little-box-input form{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.sub-little-box-input input{
+    width: 70%;
+    height: 100%;
+    border: none;
+    border-radius: 30px 0 30px 0;
+    padding-left: 30px;
+}
+.sub-little-box-input button{
+    border-radius: 30px 0 30px 0;
+    border-color: #FF2359;
+    font-size: 15px;
+    padding: 23px 35px;
+    background-color: #FF2359;
+    color: white;
+    margin-left: 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.sub-little-box-input button:hover{
+    background-color: black;
+    color: #FF2359;
+    transition: 0.5s;
+}
+
+.footer {
+    width: 100%;
+    height: 400PX;
+    /* background-color: #FF2359; */
+}
+
+.top-footer-5 {
+    width: 100%;
+    height: 70%;
+    /* background-color: #3CADA9; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-top-footer-5 {
+    width: 80%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-top-footer-5-1 {
+    width: 38%;
+    height: 100%;
+    /* background-color: violet; */
+    overflow: hidden;
+}
+
+.top-footer-5-1-title {
+    width: 100%;
+    height: 20%;
+    /* background-color: #666463; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 15px; */
+    cursor: pointer;
+}
+
+.top-footer-5-1-title h2 {
+    color: black;
+}
+
+.top-footer-5-1-title h2:hover {
+    color: #FF2359;
+}
+
+.top-footer-5-1-p {
+    width: 100%;
+    height: 35%;
+    /* background-color: yellowgreen; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 40px; */
+    color: #666463;
+}
+
+.top-footer-5-1-name {
+    width: 100%;
+    height: 20%;
+    /* background-color: yellow; */
+    align-items: center;
+    display: flex;
+    /* padding-left: 40px; */
+
+}
+
+.top-footer-5-1-social {
+    width: 100%;
+    height: 25%;
+    /* background-color: turquoise; */
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.top-footer-5-1-social a {
+    color: #FF2359;
+    margin-right: 15px;
+}
+
+.sub-top-footer-5-2 {
+    width: 18%;
+    height: 100%;
+    /* background-color: tomato; */
+    overflow: hidden;
+}
+
+.top-footer-5-2-title {
+    width: 100%;
+    height: 40%;
+    /* background-color: rgb(88, 79, 78); */
+    display: flex;
+    align-items: center;
+    /* padding-left: 40px; */
+
+}
+
+.top-footer-5-2-menu {
+    width: 100%;
+    height: 20%;
+    /* background-color: tan; */
+    display: flex;
+    align-items: center;
+    /* padding-left: 15px; */
+}
+
+.top-footer-5-2-menu p {
+    color: black;
+}
+
+.top-footer-5-2-menu p:hover {
+    color: #FF2359;
+}
+
+.sub-empty-footer {
+    width: 100%;
+    height: 100px;
+}
